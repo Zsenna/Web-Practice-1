@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 calc(100/1);
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+
+body{
+    background-color: blue;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+    text-align: center;
+}
+
+#outcon1{
+    margin-top: 4.5em;
+}
+
+h5{
+    margin-top: 1em;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+    padding: 2.5em 15em;
+}
+
+.carousel-item {
+    margin: 0;
+    flex: 0 0 calc(100/1);
+    display: block;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333333;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    top: 50%;
+}

@@ -1,0 +1,110 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 80vh; */
+}
+
+/* body 1 */
+#outcon{
+    /* height: 100%; */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#outcon .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#outcon .box{
+    margin: 0.5em;
+    padding-bottom: 1em;
+    flex-grow: 0;
+    flex-basis: 200;
+    text-align: left;
+    background-color: #0091DC;
+}
+
+#outcon p{
+    margin-left: 1em;
+    color: white;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#outcon a{
+    margin-left: 1em;
+    color: white;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#outcon .icon{
+    margin-right: 1em;
+}
+
+#outcon .btn{
+    text-decoration: none;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 1em;
+    background: white;
+    padding: 0.3em 0.3em;
+}
+
+#outcon .btn1{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    background: #0091DC;
+    padding: 0.3em 0.8em;
+}
+
+#outcon .container h1 {
+    text-align: center;
+    font-family: "ABeeZee";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* body 2 */
+#outcon1 {
+    margin-top: 4.5em;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#outcon1 .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#outcon1 .box {
+    margin: 0.5em;
+    padding-bottom: 1em;
+    flex-grow: 0;
+    flex-basis: 200;
+    text-align: left;
+}
+
+#outcon1 p {
+    margin-left: 1em;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
