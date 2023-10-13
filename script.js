@@ -18,3 +18,18 @@ const selectedImage = document.getElementById("image");
 if (selectedImageName) {
   selectedImage.src = selectedImageName;
 }
+
+function goToCart(product) {
+  // Redirect to cart.html dengan membawa data produk yang dipilih
+  window.location.href = `cart.html?product=${product}`;
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Ambil parameter produk dari URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const product = urlParams.get("product");
+
+  // Tambahkan pesan ke dalam cart-content
+  const cartContent = document.getElementById("cart-content");
+  cartContent.innerHTML = `<p>${product}</p>`;
+});

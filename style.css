@@ -2,12 +2,10 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* height: 80vh; */
 }
 
 /* body 1 */
 #outcon{
-    /* height: 100%; */
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -106,5 +104,19 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+}
+
+/* cart */
+#container .box{
+    margin: 2em 0em;
+}
+
+#cart-content {
+    margin-left: 1em;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
